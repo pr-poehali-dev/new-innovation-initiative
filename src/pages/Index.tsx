@@ -42,12 +42,12 @@ const Index = () => {
             </div>
           </div>
           <div className="hidden sm:flex items-center gap-4">
-            <Button variant="ghost" className="text-[#b9bbbe] hover:text-white hover:bg-[#40444b]">
-              <BookOpen className="w-4 h-4 mr-2" />
+            <Button variant="ghost" className="text-[#b9bbbe] hover:text-white hover:bg-[#40444b] text-base px-5 py-2.5">
+              <BookOpen className="w-5 h-5 mr-2" />
               База знаний
             </Button>
-            <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-6 py-2 rounded text-sm font-medium">
-              Попробовать
+            <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-8 py-3 rounded-lg text-base font-semibold shadow-lg shadow-purple-900/40">
+              Попробовать бесплатно
             </Button>
           </div>
           <Button
@@ -62,12 +62,12 @@ const Index = () => {
         {mobileMenuOpen && (
           <div className="sm:hidden mt-4 pt-4 border-t border-[#202225]">
             <div className="flex flex-col gap-3">
-              <Button variant="ghost" className="text-[#b9bbbe] hover:text-white hover:bg-[#40444b] justify-start">
-                <BookOpen className="w-4 h-4 mr-2" />
+              <Button variant="ghost" className="text-[#b9bbbe] hover:text-white hover:bg-[#40444b] justify-start text-base py-3">
+                <BookOpen className="w-5 h-5 mr-2" />
                 База знаний
               </Button>
-              <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-6 py-2 rounded text-sm font-medium">
-                Попробовать
+              <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-6 py-3 rounded-lg text-base font-semibold">
+                Попробовать бесплатно
               </Button>
             </div>
           </div>
@@ -309,17 +309,17 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-6 sm:px-8 py-2 sm:py-3 rounded text-sm font-medium">
-                    <Brain className="w-4 h-4 mr-2" />
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-10 py-4 rounded-xl text-lg font-bold shadow-xl shadow-purple-900/50 transition-transform hover:scale-105">
+                    <Brain className="w-5 h-5 mr-2" />
                     Начать бесплатно
                   </Button>
                   <Button
                     variant="outline"
-                    className="border-[#4f545c] text-[#b9bbbe] hover:bg-[#40444b] hover:border-[#6d6f78] px-6 sm:px-8 py-2 sm:py-3 rounded text-sm font-medium bg-transparent"
+                    className="border-[#7c3aed] text-white hover:bg-[#40444b] hover:border-[#9f6ef5] px-10 py-4 rounded-xl text-lg font-semibold bg-transparent transition-transform hover:scale-105"
                   >
-                    <BookOpen className="w-4 h-4 mr-2" />
-                    База знаний
+                    <BookOpen className="w-5 h-5 mr-2" />
+                    Читать базу знаний
                   </Button>
                 </div>
               </div>
