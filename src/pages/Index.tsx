@@ -47,7 +47,7 @@ const Index = () => {
               База знаний
             </Button>
             <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-8 py-3 rounded-lg text-base font-semibold shadow-lg shadow-purple-900/40">
-              Попробовать бесплатно
+              Попробовать
             </Button>
           </div>
           <Button
@@ -67,7 +67,7 @@ const Index = () => {
                 База знаний
               </Button>
               <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-6 py-3 rounded-lg text-base font-semibold">
-                Попробовать бесплатно
+                Попробовать
               </Button>
             </div>
           </div>
@@ -312,7 +312,7 @@ const Index = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-10 py-4 rounded-xl text-lg font-bold shadow-xl shadow-purple-900/50 transition-transform hover:scale-105">
                     <Brain className="w-5 h-5 mr-2" />
-                    Начать бесплатно
+                    Начать разговор
                   </Button>
                   <Button
                     variant="outline"
